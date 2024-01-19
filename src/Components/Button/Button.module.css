@@ -1,0 +1,44 @@
+:root {
+    --bg-button: rgba(240, 240, 240, 1);
+    --border-button: solid 1px #888;
+}
+
+.button {
+    font-size: 1.3rem;
+    background-color: var(--bg-button);
+    border: none;
+    border-right: var(--border-button);
+    border-bottom: var(--border-button);
+    outline: none;
+    cursor: pointer;
+}
+
+.button:hover {
+    background-color: rgba(240, 240, 240, 0.8);
+}
+
+.button:active {
+    background-color: rgba(240, 240, 240, 0.6);
+}
+
+.double {
+    grid-column: span 2;
+}
+
+.triple {
+    grid-column: span 3;
+}
+
+.operation {
+    background-color: rgb(97, 218, 251, 0.9);
+    color: #000;
+    font-weight: 700;
+}
+
+.operation:hover {
+    background-color: rgb(97, 218, 251, 0.8);
+}
+
+.operation:active {
+    background-color: rgb(97, 218, 251, 0.7);
+}
